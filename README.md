@@ -1,1 +1,1 @@
-# lecture6-examples-v3
+# Lecure 6 examples
