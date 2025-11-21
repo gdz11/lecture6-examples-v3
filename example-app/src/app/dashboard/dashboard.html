@@ -2,18 +2,3 @@
 
 
 <h3>Dashboard</h3>
-
-<a [routerLink]="['/static']" [routerLinkActive]="'active'">Static route link</a> &nbsp; &nbsp;
-
-<a [routerLink]="['/parameters-example', 2, 'sort', 'ascending']" 
-   [queryParams]="{ page: 2}" 
-   [routerLinkActive]="'active'">
-  Link to a route with route paramaters and query parameters (create mode)
-</a>
-<br />
-
-<a [routerLink]="['/parameters-example-edit', 2, 'sort', 'ascending']" 
-   [queryParams]="{ page: 2}" 
-   [routerLinkActive]="'active'">
-  Link to a route with route paramaters and query parameters (edit mode)
-</a>
